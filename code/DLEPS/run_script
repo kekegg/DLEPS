@@ -1,0 +1,22 @@
+########################################################
+# All rights reserved. 
+# Author: XIE Zhengwei @ Beijing Gigaceuticals Tech Co., Ltd 
+#                      @ Peking University International Cancer Institute
+# Contact: xiezhengwei@gmail.com
+#
+#
+########################################################
+
+# for browning 
+python driv_DLEPS.py --input=../../data/Brief_Targetmol_natural_product_2719 --output=../../results/np2719_Browning.csv --upset=../../data/BROWNING_up --downset=../../data/BROWNING_down --reverse=False
+python driv_DLEPS.py --input=../../data/Brief_FDA-Approved-Drug_961 --output=../../results/fda_Browning.csv --upset=../../data/BROWNING_up --downset=../../data/BROWNING_down --reverse=False
+python driv_DLEPS.py --input=../../data/Brief_FDA-Approved-Drug_20 --output=../../results/fda20_Browning.csv --upset=../../data/BROWNING_up --downset=../../data/BROWNING_down --reverse=False
+python driv_DLEPS.py --input=../../data/Brief_FDA-Approved-Drug_5 --output=../../results/fda5_Browning_expert.csv --upset=../../data/Browning_Expert_UP --reverse=False
+
+#for HUA
+python driv_DLEPS.py --input=../../data/Brief_Targetmol_natural_product_2719 --output=../../results/np2719_HUA.csv --upset=../../data/HUA_up --downset=../../data/HUA_down
+python driv_DLEPS.py --input=../../data/Brief_FDA-Approved-Drug_961 --output=../../results/fda_HUA.csv --upset=../../data/HUA_up --downset=../../data/HUA_down
+
+# for fibrosis
+python driv_DLEPS.py --input=../../data/Brief_Targetmol_natural_product_2719 --output=../../results/np2719_Fibrosis.csv --upset=../../data/FIBROSIS_up --downset=../../data/FIBROSIS_down
+python driv_DLEPS.py --input=../../data/Brief_FDA-Approved-Drug_961 --output=../../results/fda_Fibrosis.csv --upset=../../data/FIBROSIS_up --downset=../../data/FIBROSIS_down

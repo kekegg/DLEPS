@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -ex
+
+#export PATH=$PATH:DLEPS
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+cd DLEPS
+bash run_script
