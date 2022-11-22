@@ -54,5 +54,5 @@ Other options include:
 Jupyter notebook users may run DLEPS_tutorial.ipynb for better iterative computing and analysis.
 
 Denseweight file is here:
-https://www.kaggle.com/datasets/xiezhengwei/dleps-dense-weight-file
+https://kaggle.com/datasets/b0a096e3c550146f2a786f0ffd3c8bd37d68b04c7b09697efd282f91f8f6e36f
 
