@@ -1,0 +1,114 @@
+cff-version: 1.2.0
+message: >-
+  If you use DLEPS (code or model weights), or any drug-efficacy predictions
+  it produces, please cite the paper below. Academic/research use only:
+  commercial use requires prior written permission (see LICENSE).
+title: "Prediction of drug efficacy from transcriptional profiles with deep learning"
+type: article
+authors:
+  - family-names: Zhu
+    given-names: Jie
+    orcid: "https://orcid.org/0000-0003-4041-5262"
+    affiliation: "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Wang
+    given-names: Jingxiang
+    affiliation: "Beijing & Qingdao Langu Pharmaceutical R&D Platform, Beijing Gigaceuticals Tech. Co. Ltd., Beijing, China"
+  - family-names: Wang
+    given-names: Xin
+    affiliation: "Department of Pharmacology, School of Basic Medical Sciences, Health Science Center, Peking University, Beijing, China"
+  - family-names: Gao
+    given-names: Mingjing
+    affiliation: "Beijing & Qingdao Langu Pharmaceutical R&D Platform, Beijing Gigaceuticals Tech. Co. Ltd., Beijing, China"
+  - family-names: Guo
+    given-names: Bingbing
+    affiliation: "Department of Anatomy, Histology and Embryology, Neuroscience Research Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Gao
+    given-names: Miaomiao
+    affiliation: "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Liu
+    given-names: Jiarui
+    affiliation: "Department of Anatomy, Histology and Embryology, Neuroscience Research Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Yu
+    given-names: Yanqiu
+    affiliation: "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Wang
+    given-names: Liang
+    affiliation: "Department of Pharmacology, School of Basic Medical Sciences, Health Science Center, Peking University, Beijing, China"
+  - family-names: Kong
+    given-names: Weikaixin
+    orcid: "https://orcid.org/0000-0002-1070-7136"
+    affiliation: "State Key Laboratory of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Health Science Center, Peking University, Beijing, China"
+  - family-names: An
+    given-names: Yongpan
+    affiliation: "Department of Pharmacology, School of Basic Medical Sciences, Health Science Center, Peking University, Beijing, China"
+  - family-names: Liu
+    given-names: Zurui
+    affiliation: "Beijing & Qingdao Langu Pharmaceutical R&D Platform, Beijing Gigaceuticals Tech. Co. Ltd., Beijing, China"
+  - family-names: Sun
+    given-names: Xinpei
+    orcid: "https://orcid.org/0000-0002-7072-7737"
+    affiliation: "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Huang
+    given-names: Zhuo
+    orcid: "https://orcid.org/0000-0001-9198-4778"
+    affiliation: "State Key Laboratory of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Health Science Center, Peking University, Beijing, China"
+  - family-names: Zhou
+    given-names: Hong
+    affiliation: "Department of Pharmacology, School of Basic Medical Sciences, Health Science Center, Peking University, Beijing, China"
+  - family-names: Zhang
+    given-names: Ning
+    affiliation: "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Zheng
+    given-names: Ruimao
+    affiliation: "Department of Anatomy, Histology and Embryology, Neuroscience Research Institute, Health Science Center, Peking University, Beijing, China"
+  - family-names: Xie
+    given-names: Zhengwei
+    orcid: "https://orcid.org/0000-0001-9572-878X"
+    affiliation: "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China"
+journal: "Nature Biotechnology"
+volume: 39
+issue: 11
+start: 1444
+end: 1452
+year: 2021
+month: 11
+date-released: "2021-06-17"
+doi: "10.1038/s41587-021-00946-z"
+url: "https://doi.org/10.1038/s41587-021-00946-z"
+repository-code: "https://github.com/kekegg/DLEPS"
+identifiers:
+  - type: doi
+    value: "10.1038/s41587-021-00946-z"
+  - type: other
+    value: "PMID: 34140681"
+  - type: other
+    value: "OpenAlex: W3192398644"
+abstract: >-
+  Drug discovery focused on target proteins has been a successful strategy, but
+  many diseases and biological processes lack obvious targets to enable such
+  approaches. Here, to overcome this challenge, we describe a deep
+  learning-based efficacy prediction system (DLEPS) that identifies drug
+  candidates using a change in the gene expression profile in the diseased
+  state as input. DLEPS was trained using chemically induced changes in
+  transcriptional profiles from the L1000 project. We found that the changes in
+  transcriptional profiles for previously unexamined molecules were predicted
+  with a Pearson correlation coefficient of 0.74. We examined three disorders
+  and experimentally tested the top drug candidates in mouse disease models.
+  Validation showed that perillen, chikusetsusaponin IV and trametinib confer
+  disease-relevant impacts against obesity, hyperuricemia and
+  nonalcoholic steatohepatitis, respectively. DLEPS can generate insights into
+  pathogenic mechanisms, and we demonstrate that the MEK-ERK signaling pathway
+  is a target for developing agents against nonalcoholic steatohepatitis. Our
+  findings suggest that DLEPS is an effective tool for drug repurposing and
+  discovery.
+keywords:
+  - drug efficacy prediction
+  - gene expression profiling
+  - deep learning
+  - drug repurposing
+  - drug discovery
+  - hyperuricemia
+  - nonalcoholic steatohepatitis
+  - MEK-ERK signaling
+  - trametinib
+  - obesity
