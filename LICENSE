@@ -1,0 +1,360 @@
+DLEPS ACADEMIC RESEARCH USE-ONLY LICENSE
+学术研究专用许可协议（非商业）
+
+Version 1.0 — 21 October 2026
+
+Copyright (c) 2021-2026 Zhengwei Xie (谢正伟) and the DLEPS Development Team.
+All rights reserved. 保留所有权利。
+
+SPDX-License-Identifier: DLEPS-Academic-Research-Use-Only-1.0
+
+
+================================================================================
+PREAMBLE
+================================================================================
+
+This License governs the DLEPS platform (Deep Learning based Efficacy Prediction
+System for drug discovery), including its source code, model weights, and any
+associated documentation, data samples, and interfaces (collectively, the
+"Software").
+
+The Software was developed for academic and non-profit research purposes. It
+predicts the therapeutic efficacy of small molecules from transcriptional
+profiles and molecular structure. The Licensor grants permission to use the
+Software strictly within that academic research envelope, and deliberately
+withholds permission for any commercial exploitation — including commercial
+exploitation of the predictions the Software itself produces.
+
+The parties intend this License to be read as a whole. Where a restriction is
+expressed in more than one section, the more restrictive reading applies.
+
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+1.1 "Software" means all source code, model weights (including the Molecular
+    VAE, the DLEPS dense/transformer prediction heads, and the auxiliary
+    logP, toxicity and ADMET models distributed under the `data/` directory
+    and their derivatives), scripts, configuration files, container images,
+    APIs, client and server components, documentation, and sample data made
+    available in connection with the DLEPS project.
+
+1.2 "Outputs" means any result produced by executing the Software, including
+    but not limited to:
+      (a) predicted efficacy, potency, connectivity/enrichment scores, or
+          predicted therapeutic direction (e.g. disease-mimicking vs.
+          disease-reversing) for any small molecule;
+      (b) rankings, rankings-derived orderings, or hit lists of compounds;
+      (c) predictions of ADMET, toxicity, logP, or solubility derived from
+          the auxiliary models included in the Software;
+      (d) any model, classifier, filter, or pipeline that is trained,
+          fine-tuned, calibrated, initialized from, or otherwise derived from
+          the Software or its Model Weights (a "Derived Model");
+      (e) any dataset, table, figure, report, or database assembled from the
+          foregoing.
+
+1.3 "Academic Research" means use undertaken by, or on behalf of, a
+    university, research institute, hospital, government laboratory, or
+    non-profit research organization, for research, teaching, scholarly
+    publication, or thesis/dissertation purposes, where the primary purpose of
+    the activity is scientific investigation and not commercial exploitation.
+
+1.4 "Commercial Use" means any use that is directed toward, or that directly
+    or indirectly serves, a commercial purpose or the generation of revenue,
+    including without limitation:
+      (a) use within, or for the benefit of, a for-profit company,
+          pharmaceutical or biotechnology enterprise, contract research
+          organization, venture-backed entity, or any other profit-seeking
+          legal person;
+      (b) use to develop, screen, select, prioritize, or advance a compound,
+          target, therapeutic hypothesis, or pipeline for commercial
+          exploitation;
+      (c) use to support a business activity, including but not limited to
+          in-licensing, out-licensing, virtual screening campaigns,
+          lead-optimization programs, due diligence, or investor materials;
+      (d) use within any product or service offered for money, subscription,
+          or other consideration;
+      (e) use of the Outputs, or of any Derived Model, for any of the above.
+
+1.5 "Licensor" means the copyright holder(s) identified in the header of this
+    License, acting through the contact address given in Section 12.
+
+1.6 "You" means the individual or legal entity exercising the permissions
+    granted under Section 2.
+
+
+================================================================================
+2. GRANT OF LICENSE
+================================================================================
+
+Subject to Your full and continuing compliance with this License, the Licensor
+grants You a worldwide, royalty-free, non-exclusive, non-transferable,
+revocable, non-sublicensable license to:
+
+  (a) download, install, and execute the Software;
+  (b) run the Software for Academic Research purposes;
+  (c) inspect, study, and modify the Software for Academic Research purposes;
+  (d) create and analyze Outputs for Academic Research purposes;
+  (e) distribute the Software, unmodified, to an unlimited number of
+      individuals or institutions for Academic Research purposes, provided
+      that this License file accompanies every such distribution.
+
+No other rights are granted. All rights not expressly granted herein are
+reserved by the Licensor.
+
+
+================================================================================
+3. RESTRICTIONS ON USE
+================================================================================
+
+3.1 NO COMMERCIAL USE OF THE SOFTWARE.
+    You may not use the Software, in whole or in part, for any Commercial Use.
+    This restriction applies to the source code, the model weights, the
+    services and interfaces, and any Derivative thereof, irrespective of
+    whether such use is for a fee, is internally profitable, is performed for
+    a client, or is cost-subsidized by a commercial entity.
+
+3.2 NO COMMERCIAL USE OF THE OUTPUTS.
+    Outputs shall be treated as Confidential Academic Results and are likewise
+    subject to the Academic Research limitation. You may not use, disclose,
+    publish, license, sell, or otherwise exploit any Output for any Commercial
+    Use. For the avoidance of doubt, and without limitation:
+      (a) an efficacy, potency, or connectivity prediction for a small
+          molecule produced by running the Software may not be used to
+          select, advance, justify, price, or promote a compound in a
+          commercial context, nor may it be used in a regulatory submission,
+          a due-diligence report, or an investor or commercial partner
+          presentation;
+      (b) a compound list, ranking, or hit list generated with the Software
+          may not be transferred to, or used on behalf of, a commercial party;
+      (c) a Derived Model, or a prediction produced by a Derived Model, is
+          subject to this Section to the same extent as the original
+          Software and Outputs.
+
+    For the avoidance of doubt, this Section 3.2 does not restrict the
+    publication of academic findings in scholarly journals, preprints,
+    conference proceedings, or theses, provided that the Software is
+    acknowledged in accordance with Section 4.4.
+
+3.3 NO SUBLICENSING OR REDISTRIBUTION.
+    You may not sublicense, rent, lease, host as a paid service, or otherwise
+    make the Software or the Model Weights available to third parties except
+    as expressly permitted by Section 2(e) for Academic Research.
+
+3.4 NO REMOVAL OF NOTICES.
+    You may not remove, alter, or obscure any copyright, authorship,
+    attribution, license, or disclaimer notice in the Software, in the
+    accompanying documentation, or in the Outputs, nor may You present
+    Yourself as the author or owner of the Software.
+
+3.5 NO REPRESENTATIONS OF ENDORSEMENT.
+    You may not state or imply that the Licensor endorses, supports, or
+    approves Your use of the Software, or that any prediction produced by the
+    Software is endorsed or clinically validated by the Licensor.
+
+3.6 COMPLIANCE WITH APPLICABLE LAW.
+    Nothing in this License grants permission to use the Software in
+    violation of applicable law, including export control, sanctions, and
+    intellectual property law, or in a manner that would infringe the
+    intellectual property rights of third parties.
+
+
+================================================================================
+4. CONDITIONS AND ATTRIBUTION
+================================================================================
+
+4.1 NOTICE RETENTION.
+    This License file must be retained in the Software distribution and must
+    be reproduced in any publication, presentation, or thesis that makes
+    substantial use of the Software or reports Outputs derived from it.
+
+4.2 SCOPE.
+    The restrictions in Section 3 apply to the Software, to the Model
+    Weights, to the Outputs, and to any Derived Model, in each case as
+    modified, retrained, fine-tuned, quantized, distilled, re-hosted, or
+    otherwise transformed.
+
+4.3 NO ADDITIONAL RESTRICTIONS.
+    You may not apply any additional restriction that would limit the rights
+    granted under Section 2, except as required by law.
+
+4.4 CITATION.
+    Any academic work that uses the Software or reports Outputs derived from
+    it must cite the underlying publication:
+
+        Xie Z, et al. Prediction of Drug Efficacy from Transcriptional
+        Profiles. Nature Biotechnology (2021).
+        DOI: 10.1038/s41587-021-00946-z
+
+4.5 PROPRIETARY-NOTICE MARKING.
+    Any Outputs shared outside your institution must be marked as
+    "For academic research use only — not for commercial use."
+
+
+================================================================================
+5. COMMERCIAL USE REQUIRES PRIOR WRITTEN PERMISSION
+================================================================================
+
+5.1 Any Commercial Use of the Software, the Model Weights, or the Outputs —
+    including any use described in Section 1.4 or restricted by Section 3 —
+    requires the prior written permission of the Licensor.
+
+5.2 A permission request must be sent to the contact address in Section 12
+    and must describe, at minimum: the intended Commercial Use, the entities
+    involved, the compounds or projects concerned, and the term of the
+    requested permission.
+
+5.3 Written permission may be granted selectively, may impose additional
+    terms, and may be revoked prospectively on written notice. No implied
+    permission arises from silence, from prior non-commercial use, from
+    academic publication of Outputs, or from any other conduct. Absent an
+    express written grant, Section 3 applies in full.
+
+5.4 A separate, written, and signed agreement is required in order to grant
+    rights that this License withholds, including the right to commercialize
+    Outputs, to sublicense the Software, or to transfer the Model Weights to
+    a third party.
+
+
+================================================================================
+6. INTELLECTUAL PROPERTY
+================================================================================
+
+6.1 The Software, the Model Weights, and the intellectual property embodied
+    in or derivable from them (including the trained parameters, the
+    architectures, the feature representations, the gene-expression
+    knowledge base, and the training and evaluation pipelines) remain the
+    exclusive property of the Licensor and its licensors, and are licensed,
+    not sold.
+
+6.2 The Licensor does not assert ownership over Your research findings
+    presented in the ordinary academic sense. However, to the extent that any
+    Output is used for a Commercial Use, the restrictions of Section 3 apply
+    notwithstanding any other arrangement between the parties, and the
+    Licensor reserves all rights in the Software and Outputs to the extent
+    necessary to enforce this License.
+
+6.3 The Licensor does not grant any right to use the trademarks, logos, or
+    trade names of the Licensor, of DLEPS, or of the Licensor's affiliated
+    laboratories or institutions, except to identify the origin of the
+    Software in customary academic citation.
+
+
+================================================================================
+7. NO WARRANTY; DISCLAIMER
+================================================================================
+
+7.1 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND
+    NON-INFRINGEMENT. The Licensor makes no representation or warranty
+    regarding the accuracy, reliability, reproducibility, or fitness for any
+    particular purpose of the Outputs, and expressly disclaims any such
+    representation or warranty.
+
+7.2 THE SOFTWARE IS NOT A MEDICAL DEVICE AND IS NOT INTENDED TO DIAGNOSE,
+    TREAT, CURE, OR PREVENT ANY DISEASE, NOR TO SUBSTITUTE FOR THE JUDGMENT
+    OF A QUALIFIED HEALTHCARE PROFESSIONAL. THE OUTPUTS SHALL NOT BE USED
+    AS A SOLE BASIS FOR ANY CLINICAL, REGULATORY, OR THERAPEUTIC DECISION.
+
+7.3 ALL OUTPUTS ARE PREDICTIONS REQUIRING INDEPENDENT EXPERIMENTAL VALIDATION.
+    No prediction produced by the Software has been validated for clinical
+    use, and none should be represented as having been so.
+
+
+================================================================================
+8. LIMITATION OF LIABILITY
+================================================================================
+
+To the maximum extent permitted by applicable law, in no event shall the
+Licensor, its authors, its contributors, its affiliated laboratories, or its
+institutions be liable for any claim, damages, or other liability, whether in
+an action of contract, tort (including negligence), strict liability, or
+otherwise, arising out of or in connection with the Software, the Model
+Weights, the Outputs, or their use, even if advised of the possibility of
+such damages. This limitation applies notwithstanding any failure of the
+Software to achieve the intended result, and regardless of whether the
+Outputs were used in Academic Research or in breach of this License.
+
+
+================================================================================
+9. TERMINATION
+================================================================================
+
+9.1 This License terminates automatically and without notice if You breach any
+    of its terms. Upon termination, You must cease all use of the Software
+    and the Model Weights and delete all copies and Derivatives thereof,
+    including Derived Models and Outputs, except where retention is required
+    by law or by an academic record-keeping obligation, in which case the
+    retained materials remain subject to Sections 3 and 4 in perpetuity.
+
+9.2 Termination does not affect the accrued rights of the Licensor, nor does
+    it relieve You of liability for breaches occurring prior to termination.
+
+9.3 Sections 3.2, 4, 6, 7, 8, 10, 11, and 12 survive termination.
+
+
+================================================================================
+10. THIRD-PARTY COMPONENTS
+================================================================================
+
+The Software incorporates or is distributed alongside third-party components
+that are NOT covered by this License and remain subject to their own
+licenses, including without limitation RDKit, TensorFlow/Keras, NumPy, pandas,
+SciPy, scikit-learn, autogrow, gypsum_dl, and any other dependency or
+vendored component identified in the accompanying documentation or in the
+dependency manifest. Those components are used under their respective terms,
+which may include BSD, MIT, or Apache licenses that permit commercial use.
+
+This License governs only the DLEPS-specific source code, model weights,
+documentation, and Outputs. It does not restrict the license terms of any
+third-party component, and it does not grant any rights in them.
+
+
+================================================================================
+11. GOVERNING LAW AND DISPUTE RESOLUTION
+================================================================================
+
+11.1 This License is governed by the laws of the jurisdiction in which the
+    Licensor is located, without regard to conflict-of-law principles.
+
+11.2 Any dispute arising out of or in connection with this License that
+    cannot be resolved by good-faith consultation between You and the
+    Licensor within thirty (30) days of written notice shall be submitted to
+    binding arbitration, with the seat of arbitration in the Licensor's
+    jurisdiction, conducted in English and Chinese, with a sole arbitrator.
+    The award shall be final and binding.
+
+11.3 Nothing in this Section limits any right or remedy that cannot lawfully
+    be waived, including injunctive relief to prevent unauthorized Commercial
+    Use.
+
+
+================================================================================
+12. CONTACT FOR COMMERCIAL PERMISSION
+================================================================================
+
+Requests for commercial permission, questions about this License, and
+notifications of suspected infringement should be directed to:
+
+    Licensor:     Zhengwei Xie (谢正伟) / DLEPS Development Team
+    Email:        [ FILL IN — 商业授权联系邮箱 ]
+    Repository:   https://github.com/kekegg/DLEPS
+    Paper:        doi:10.1038/s41587-021-00946-z
+
+    A commercial permission request must include the information described in
+    Section 5.2. Please allow a reasonable period for review.
+
+
+================================================================================
+13. ACKNOWLEDGMENT
+================================================================================
+
+By downloading, installing, copying, or executing the Software, or by using
+the Outputs, You acknowledge that You have read, understood, and agree to be
+bound by this License, and in particular that the Software and the Outputs
+may be used only for Academic Research, and that any Commercial Use requires
+the prior written permission of the Licensor.
+
+                    END OF LICENSE — DLEPS Academic Research Use-Only License v1.0
