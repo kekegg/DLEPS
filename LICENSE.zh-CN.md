@@ -185,7 +185,7 @@ DLEPS 从转录组特征与分子结构出发预测小分子的治疗效力。�
 | 项 | 内容 |
 |---|---|
 | 授权方 | 谢正伟（Zhengwei Xie）/ DLEPS 开发团队 |
-| 邮箱 | **[ 待填写 —— 商业授权联系邮箱 ]** |
+| 邮箱 | **xiezhengwei@hsc.pku.edu.cn** |
 | 代码仓库 | https://github.com/kekegg/DLEPS |
 | 原始论文 | doi:10.1038/s41587-021-00946-z |
 
