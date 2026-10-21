@@ -56,3 +56,12 @@ Jupyter notebook users may run DLEPS_tutorial.ipynb for better iterative computi
 Denseweight file is here:
 https://kaggle.com/datasets/b0a096e3c550146f2a786f0ffd3c8bd37d68b04c7b09697efd282f91f8f6e36f
 
+denseweight.h5
+DLEPS_30000_tune_gvae10000.h5
+SMILE_train_demo.h5
+SMILE_test_demo.h5
+RNA_train_demo.h5
+RNA_test_demo.h5 can be found: 
+https://drive.google.com/drive/folders/1Fye5Bn_ZkT_wjZJIWTcj4RqGXZq-nd4L
+
+benchmark.csv can be found in data folder. 
