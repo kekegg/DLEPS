@@ -1,6 +1,51 @@
 # DLEPS
 A Deep Learning based Efficacy Prediction System for Drug Discovery
 
+> **If you use DLEPS — the code, the model weights, or any drug-efficacy predictions it
+> produces — please cite the paper below.**
+> Academic/research use only: commercial use of the code, the weights, or the predictions
+> requires prior written permission. See [LICENSE](LICENSE) · [LICENSE.zh-CN.md](LICENSE.zh-CN.md).
+
+## 📖 Citation
+
+> Zhu J#, Wang J#, Wang X#, Gao M, Guo B, Gao M, Liu J, Yu Y, Wang L, Kong W, An Y, Liu Z,
+> Sun X, Huang Z, Zhou H, Zhang N, Zheng R, Xie Z\*. Prediction of drug efficacy from
+> transcriptional profiles with deep learning. *Nat Biotechnol*. 2021;39(11):1444–1452.
+> [doi:10.1038/s41587-021-00946-z](https://doi.org/10.1038/s41587-021-00946-z)
+
+**BibTeX**
+
+```bibtex
+@article{zhu2021prediction,
+  title   = {Prediction of drug efficacy from transcriptional profiles with deep learning},
+  author  = {Zhu, Jie and Wang, Jingxiang and Wang, Xin and Gao, Mingjing and
+             Guo, Bingbing and Gao, Miaomiao and Liu, Jiarui and Yu, Yanqiu and
+             Wang, Liang and Kong, Weikaixin and An, Yongpan and Liu, Zurui and
+             Sun, Xinpei and Huang, Zhuo and Zhou, Hong and Zhang, Ning and
+             Zheng, Ruimao and Xie, Zhengwei},
+  journal = {Nature Biotechnology},
+  year    = {2021},
+  volume  = {39},
+  number  = {11},
+  pages   = {1444--1452},
+  doi     = {10.1038/s41587-021-00946-z},
+  url     = {https://doi.org/10.1038/s41587-021-00946-z}
+}
+```
+
+**Machine-readable metadata:** [`citation.json`](citation.json) · [`CITATION.cff`](CITATION.cff) · [`citation.bib`](citation.bib) · [`CITATION.md`](CITATION.md)
+
+**Cited by** — these indexes maintain independent citation graphs, so the numbers legitimately differ. Cite the index you actually consulted, together with its access date (retrieved 2026-10-21).
+
+| Index | Count | Link |
+|---|---:|---|
+| Google Scholar | 222 | [cites](https://scholar.google.com.hk/scholar?oi=bibs&hl=en&cites=13650249607434417486&as_sdt=5) |
+| OpenAlex | 192 | [W3192398644](https://openalex.org/W3192398644) |
+| Crossref | 186 | [DOI](https://doi.org/10.1038/s41587-021-00946-z) |
+| Semantic Scholar | 160 | [corpus 235470977](https://www.semanticscholar.org/paper/235470977) |
+
+---
+
 # Setup
 
 - ## Install package
