@@ -1,0 +1,213 @@
+{
+  "$schema": "https://doi.org/10.5281/zenodo.10729456",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-21T11:34:14Z",
+  "description": "Canonical citation metadata for the DLEPS paper (the method implemented by this repository). Machine-readable, ready to be embedded in README.md or rendered by a citation tool.",
+
+  "id": "10.1038/s41587-021-00946-z",
+  "type": "journal-article",
+  "title": "Prediction of drug efficacy from transcriptional profiles with deep learning",
+  "short_title": "DLEPS: prediction of drug efficacy from transcriptional profiles",
+  "subtitle": null,
+  "abstract": "Drug discovery focused on target proteins has been a successful strategy, but many diseases and biological processes lack obvious targets to enable such approaches. Here, to overcome this challenge, we describe a deep learning–based efficacy prediction system (DLEPS) that identifies drug candidates using a change in the gene expression profile in the diseased state as input. DLEPS was trained using chemically induced changes in transcriptional profiles from the L1000 project. We found that the changes in transcriptional profiles for previously unexamined molecules were predicted with a Pearson correlation coefficient of 0.74. We examined three disorders and experimentally tested the top drug candidates in mouse disease models. Validation showed that perillen, chikusetsusaponin IV and trametinib confer disease-relevant impacts against obesity, hyperuricemia and nonalcoholic steatohepatitis, respectively. DLEPS can generate insights into pathogenic mechanisms, and we demonstrate that the MEK-ERK signaling pathway is a target for developing agents against nonalcoholic steatohepatitis. Our findings suggest that DLEPS is an effective tool for drug repurposing and discovery.",
+
+  "authors": [
+    { "given": "Jie",       "family": "Zhu",    "initials": "J", "orcid": "0000-0003-4041-5262", "affiliation_ids": ["pkuii", "pkupharm"], "corresponding": false },
+    { "given": "Jingxiang", "family": "Wang",   "initials": "J", "orcid": null,                "affiliation_ids": ["langu"],          "corresponding": false },
+    { "given": "Xin",       "family": "Wang",   "initials": "X", "orcid": null,                "affiliation_ids": ["pkupharm"],       "corresponding": false },
+    { "given": "Mingjing",  "family": "Gao",    "initials": "M", "orcid": null,                "affiliation_ids": ["langu"],          "corresponding": false },
+    { "given": "Bingbing",  "family": "Guo",    "initials": "B", "orcid": null,                "affiliation_ids": ["pkuana"],         "corresponding": false },
+    { "given": "Miaomiao",  "family": "Gao",    "initials": "M", "orcid": null,                "affiliation_ids": ["pkuii"],          "corresponding": false },
+    { "given": "Jiarui",    "family": "Liu",    "initials": "J", "orcid": null,                "affiliation_ids": ["pkuana"],         "corresponding": false },
+    { "given": "Yanqiu",    "family": "Yu",     "initials": "Y", "orcid": null,                "affiliation_ids": ["pkuii"],          "corresponding": false },
+    { "given": "Liang",     "family": "Wang",   "initials": "L", "orcid": null,                "affiliation_ids": ["pkupharm"],       "corresponding": false },
+    { "given": "Weikaixin", "family": "Kong",   "initials": "W", "orcid": "0000-0002-1070-7136", "affiliation_ids": ["sklnbd"],        "corresponding": false },
+    { "given": "Yongpan",   "family": "An",     "initials": "Y", "orcid": null,                "affiliation_ids": ["pkupharm"],       "corresponding": false },
+    { "given": "Zurui",     "family": "Liu",    "initials": "Z", "orcid": null,                "affiliation_ids": ["langu"],          "corresponding": false },
+    { "given": "Xinpei",    "family": "Sun",    "initials": "X", "orcid": "0000-0002-7072-7737", "affiliation_ids": ["pkuii"],          "corresponding": false },
+    { "given": "Zhuo",      "family": "Huang",  "initials": "Z", "orcid": "0000-0001-9198-4778", "affiliation_ids": ["sklnbd"],        "corresponding": false },
+    { "given": "Hong",      "family": "Zhou",   "initials": "H", "orcid": null,                "affiliation_ids": ["pkupharm"],       "corresponding": true,  "email": "rainbow_zhou@126.com" },
+    { "given": "Ning",      "family": "Zhang",  "initials": "N", "orcid": null,                "affiliation_ids": ["pkuii"],          "corresponding": true,  "email": "zhangning@bjmu.edu.cn" },
+    { "given": "Ruimao",    "family": "Zheng",  "initials": "R", "orcid": null,                "affiliation_ids": ["pkuana"],         "corresponding": true,  "email": "rmzheng@pku.edu.cn" },
+    { "given": "Zhengwei",  "family": "Xie",    "initials": "Z", "orcid": "0000-0001-9572-878X", "affiliation_ids": ["pkuii", "langu"], "corresponding": true,  "email": "xiezhengwei@hsc.pku.edu.cn" }
+  ],
+
+  "affiliations": [
+    { "id": "pkuii",    "name": "Peking University International Cancer Institute, Health Science Center, Peking University, Beijing, China" },
+    { "id": "pkupharm", "name": "Department of Pharmacology, School of Basic Medical Sciences, Health Science Center, Peking University, Beijing, China" },
+    { "id": "langu",    "name": "Beijing & Qingdao Langu Pharmaceutical R&D Platform, Beijing Gigaceuticals Tech. Co. Ltd., Beijing, China" },
+    { "id": "pkuana",   "name": "Department of Anatomy, Histology and Embryology, Neuroscience Research Institute, Health Science Center, Peking University, Beijing, China" },
+    { "id": "sklnbd",   "name": "State Key Laboratory of Natural and Biomimetic Drugs, School of Pharmaceutical Sciences, Health Science Center, Peking University, Beijing, China" }
+  ],
+
+  "container_title": "Nature Biotechnology",
+  "container_title_short": "Nat Biotechnol",
+  "publisher": "Nature Publishing Group US",
+  "publisher_crossref": "Springer Science and Business Media LLC",
+  "volume": "39",
+  "issue": "11",
+  "pages": "1444-1452",
+  "page_start": 1444,
+  "page_end": 1452,
+  "issn": ["1087-0156", "1546-1696"],
+  "issn_l": "0733-222X",
+  "eissn": "1546-1696",
+  "pissn": "1087-0156",
+  "publication_date": "2021-11",
+  "publication_date_print": "2021-11",
+  "publication_date_online": "2021-06-17",
+  "publication_year": 2021,
+  "language": "en",
+
+  "identifiers": {
+    "doi": "10.1038/s41587-021-00946-z",
+    "doi_url": "https://doi.org/10.1038/s41587-021-00946-z",
+    "pmid": "34140681",
+    "pmid_url": "https://pubmed.ncbi.nlm.nih.gov/34140681/",
+    "openalex": "W3192398644",
+    "openalex_url": "https://openalex.org/W3192398644",
+    "semantic_scholar_corpus_id": 235470977,
+    "semantic_scholar_url": "https://www.semanticscholar.org/paper/235470977",
+    "google_scholar_cluster_id": "13650249607434417486",
+    "google_scholar_profile_id": "kvBMbS4AAAAJ",
+    "google_scholar_citation_for_view": "kvBMbS4AAAAJ:kNdYIx-mwKoC",
+    "nature_article_url": "https://www.nature.com/articles/s41587-021-00946-z"
+  },
+
+  "google_scholar": {
+    "profile_id": "kvBMbS4AAAAJ",
+    "profile_name": "Zhengwei Xie",
+    "profile_url": "https://scholar.google.com.hk/citations?user=kvBMbS4AAAAJ&hl=en",
+    "cluster_id": "13650249607434417486",
+    "citation_for_view": "kvBMbS4AAAAJ:kNdYIx-mwKoC",
+    "article_url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=kvBMbS4AAAAJ&citation_for_view=kvBMbS4AAAAJ:kNdYIx-mwKoC",
+    "cited_by_url": "https://scholar.google.com.hk/scholar?oi=bibs&hl=en&cites=13650249607434417486&as_sdt=5",
+    "all_versions_url": "https://scholar.google.com.hk/scholar?oi=bibs&hl=en&cluster=13650249607434417486",
+    "total_versions": 6,
+    "cited_by": 222,
+    "cited_by_by_year": {
+      "2021": 3,
+      "2022": 26,
+      "2023": 31,
+      "2024": 45,
+      "2025": 72,
+      "2026": 43
+    },
+    "cited_by_by_year_sum": 220,
+    "cited_by_by_year_note": "Scholar's own 'Cited by' total is 222; the per-year histogram on the same page sums to 220 (Scholar does not reconcile the 2-count difference).",
+    "scholar_rendered_fields": {
+      "title": "Prediction of drug efficacy from transcriptional profiles with deep learning",
+      "publication_date": "2021/11",
+      "journal": "Nature biotechnology",
+      "volume": "39",
+      "issue": "11",
+      "pages": "1444-1452",
+      "publisher": "Nature Publishing Group US",
+      "authors_line": "Jie Zhu, Jingxiang Wang, Xin Wang, Mingjing Gao, Bingbing Guo, Miaomiao Gao, Jiarui Liu, Yanqiu Yu, Liang Wang, Weikaixin Kong, Yongpan An, Zurui Liu, Xinpei Sun, Zhuo Huang, Hong Zhou, Ning Zhang, Ruimao Zheng, Zhengwei Xie",
+      "description": "Drug discovery focused on target proteins has been a successful strategy, but many diseases and biological processes lack obvious targets to enable such approaches. Here, to overcome this challenge, we describe a deep learning–based efficacy prediction system (DLEPS) that identifies drug candidates using a change in the gene expression profile in the diseased state as input. DLEPS was trained using chemically induced changes in transcriptional profiles from the L1000 project. We found that the changes in transcriptional profiles for previously unexamined molecules were predicted with a Pearson correlation coefficient of 0.74. We examined three disorders and experimentally tested the top drug candidates in mouse disease models. Validation showed that perillen, chikusetsusaponin IV and trametinib confer disease-relevant impacts against obesity, hyperuricemia and nonalcoholic steatohepatitis, respectively. DLEPS can generate insights into pathogenic mechanisms, and we demonstrate that the MEK-ERK signaling pathway is a target for developing agents against nonalcoholic steatohepatitis. Our findings suggest that DLEPS is an effective tool for drug repurposing and discovery."
+    }
+  },
+
+  "citation_counts": {
+    "google_scholar": 222,
+    "openalex": 192,
+    "crossref": 186,
+    "semantic_scholar": 160,
+    "note": "The four indexes maintain independent citation graphs, so the counts legitimately differ. Cite the number from the index you actually consulted; do not present one as 'the' citation count. OpenAlex reports FWCI 13.37 (highly influential within its field-year normalisation)."
+  },
+
+  "metrics": {
+    "openalex_cited_by_count": 192,
+    "openalex_fwci": 13.3696,
+    "openalex_counts_by_year": {
+      "2021": 5, "2022": 28, "2023": 32, "2024": 43, "2025": 55, "2026": 29
+    },
+    "crossref_is_referenced_by_count": 186,
+    "crossref_reference_count": 45,
+    "semantic_scholar_citation_count": 160,
+    "semantic_scholar_influential_citation_count": 5,
+    "semantic_scholar_reference_count": 47,
+    "openalex_referenced_works_count": 48
+  },
+
+  "keywords": [
+    "drug efficacy prediction",
+    "gene expression profiling",
+    "deep learning",
+    "drug repurposing",
+    "drug discovery",
+    "hyperuricemia",
+    "nonalcoholic steatohepatitis",
+    "MEK-ERK signaling",
+    "trametinib",
+    "obesity",
+    "mouse models of human disease"
+  ],
+
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "note": "Nature Biotechnology article; closed access via the publisher. The DLEPS code and model weights released with this repository are distributed separately under the repository's own LICENSE."
+  },
+
+  "preferred_citation": {
+    "style": "nature",
+    "text": "Zhu J#, Wang J#, Wang X#, Gao M, Guo B, Gao M, Liu J, Yu Y, Wang L, Kong W, An Y, Liu Z, Sun X, Huang Z, Zhou H, Zhang N, Zheng R, Xie Z*. Prediction of drug efficacy from transcriptional profiles with deep learning. Nat Biotechnol. 2021;39(11):1444-1452. doi:10.1038/s41587-021-00946-z",
+    "text_multiline": "Zhu J#, Wang J#, Wang X#, Gao M, Guo B, Gao M, Liu J, Yu Y, Wang L,\nKong W, An Y, Liu Z, Sun X, Huang Z, Zhou H, Zhang N, Zheng R,\nXie Z*. Prediction of Drug Efficacy from Transcriptional Profiles\nwith Deep Learning. Nature Biotechnology. 2021;39:1444-1452.\ndoi: 10.1038/s41587-021-00946-z",
+    "source": "publisher-supplied canonical citation string (also rendered in the repository's README '论文引用' section)"
+  },
+
+  "formatted_citations": {
+    "nature": "Zhu, J. et al. Prediction of drug efficacy from transcriptional profiles with deep learning. Nat Biotechnol. 39, 1444–1452 (2021).",
+    "apa7": "Zhu, J., Wang, J., Wang, X., Gao, M., Guo, B., Gao, M., Liu, J., Yu, Y., Wang, L., Kong, W., An, Y., Liu, Z., Sun, X., Huang, Z., Zhou, H., Zhang, N., Zheng, R., & Xie, Z. (2021). Prediction of drug efficacy from transcriptional profiles with deep learning. Nature Biotechnology, 39(11), 1444–1452. https://doi.org/10.1038/s41587-021-00946-z",
+    "mla9": "Zhu, Jie, et al. \"Prediction of drug efficacy from transcriptional profiles with deep learning.\" Nature Biotechnology, vol. 39, no. 11, 2021, pp. 1444-52, https://doi.org/10.1038/s41587-021-00946-z.",
+    "chicago_author_date": "Zhu, Jie, Jingxiang Wang, Xin Wang, Mingjing Gao, Bingbing Guo, Miaomiao Gao, Jiarui Liu, Yanqiu Yu, Liang Wang, Weikaixin Kong, Yongpan An, Zurui Liu, Xinpei Sun, Zhuo Huang, Hong Zhou, Ning Zhang, Ruimao Zheng, and Zhengwei Xie. 2021. \"Prediction of drug efficacy from transcriptional profiles with deep learning.\" Nature Biotechnology 39 (11): 1444–52. https://doi.org/10.1038/s41587-021-00946-z.",
+    "bibtex": "@article{zhu2021prediction,\n  title   = {Prediction of drug efficacy from transcriptional profiles with deep learning},\n  author  = {Zhu, Jie and Wang, Jingxiang and Wang, Xin and Gao, Mingjing and Guo, Bingbing and Gao, Miaomiao and Liu, Jiarui and Yu, Yanqiu and Wang, Liang and Kong, Weikaixin and An, Yongpan and Liu, Zurui and Sun, Xinpei and Huang, Zhuo and Zhou, Hong and Zhang, Ning and Zheng, Ruimao and Xie, Zhengwei},\n  journal = {Nature Biotechnology},\n  year   = {2021},\n  volume = {39},\n  number = {11},\n  pages  = {1444--1452},\n  doi    = {10.1038/s41587-021-00946-z},\n  url    = {https://doi.org/10.1038/s41587-021-00946-z}\n}",
+    "ris": "TY  - JOUR\nTI  - Prediction of drug efficacy from transcriptional profiles with deep learning\nAU  - Zhu, Jie\nAU  - Wang, Jingxiang\nAU  - Wang, Xin\nAU  - Gao, Mingjing\nAU  - Guo, Bingbing\nAU  - Gao, Miaomiao\nAU  - Liu, Jiarui\nAU  - Yu, Yanqiu\nAU  - Wang, Liang\nAU  - Kong, Weikaixin\nAU  - An, Yongpan\nAU  - Liu, Zurui\nAU  - Sun, Xinpei\nAU  - Huang, Zhuo\nAU  - Zhou, Hong\nAU  - Zhang, Ning\nAU  - Zheng, Ruimao\nAU  - Xie, Zhengwei\nJO  - Nature Biotechnology\nVL  - 39\nIS  - 11\nSP  - 1444\nEP  - 1452\nPY  - 2021\nDA  - 2021/11\nDO  - 10.1038/s41587-021-00946-z\nUR  - https://doi.org/10.1038/s41587-021-00946-z\nER  -"
+  },
+
+  "related_repository": {
+    "name": "kekegg/DLEPS",
+    "url": "https://github.com/kekegg/DLEPS",
+    "relationship": "implementation_of",
+    "note": "This repository contains the DLEPS code and model weights for the method described in the paper above."
+  },
+
+  "provenance": {
+    "retrieved_at": "2026-10-21T11:34:14Z",
+    "primary_anchor": "DOI 10.1038/s41587-021-00946-z",
+    "sources": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com.hk/citations?view_op=view_citation&hl=en&user=kvBMbS4AAAAJ&citation_for_view=kvBMbS4AAAAJ:kNdYIx-mwKoC",
+        "fields": ["cluster_id", "cited_by", "cited_by_by_year", "scholar_rendered_fields", "all_versions"],
+        "note": "Rendered page read directly; cluster 13650249607434417486 resolves to the same title/journal/volume/pages as the DOI record, which confirms the mapping of the user's original citation_for_view link to this paper."
+      },
+      {
+        "name": "Crossref",
+        "url": "https://api.crossref.org/works/10.1038/s41587-021-00946-z",
+        "fields": ["title", "authors", "container_title", "volume", "issue", "pages", "issn", "publisher", "publication_date", "license", "metrics.crossref_is_referenced_by_count", "metrics.crossref_reference_count"]
+      },
+      {
+        "name": "PubMed",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34140681&retmode=xml",
+        "fields": ["abstract", "authors", "affiliations", "corresponding author emails", "page_start", "page_end"]
+      },
+      {
+        "name": "OpenAlex",
+        "url": "https://api.openalex.org/works/doi:10.1038/s41587-021-00946-z",
+        "fields": ["identifiers.openalex", "keywords", "metrics.openalex_*", "open_access"]
+      },
+      {
+        "name": "Semantic Scholar",
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/s41587-021-00946-z",
+        "fields": ["identifiers.semantic_scholar_corpus_id", "metrics.semantic_scholar_*"]
+      }
+    ],
+    "notes": [
+      "All five sources agree on title, 18-author list, journal, volume 39, issue 11, pages 1444-1452, and the 2021 publication year.",
+      "The publisher's canonical citation string in preferred_citation.text_multiline is reproduced from the repository's existing README; the publisher lists only Xie Z as corresponding author, while PubMed also records correspondence addresses for Hong Zhou, Ning Zhang and Ruimao Zheng.",
+      "Author initials are given by PubMed; the surname-first abbreviation order in preferred_citation follows the publisher's own 'Nature' style listing."
+    ]
+  }
+}
